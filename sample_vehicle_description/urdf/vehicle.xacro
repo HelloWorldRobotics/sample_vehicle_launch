@@ -6,9 +6,9 @@
   <!-- vehicle body -->
   <link name="base_link">
     <visual>
-      <origin xyz="0 0 0" rpy="0 0 ${pi/2}"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://sample_vehicle_description/mesh/buggy_rviz.dae" scale="1 1 1"/>
+        <mesh filename="package://sample_vehicle_description/mesh/base_link.STL" scale="1 1 1"/>
       </geometry>
     </visual>
   </link>
